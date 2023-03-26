@@ -11,7 +11,7 @@ $lion->pawNumber = 4;
 $lion->carnivorous = true;
 $lion->size = 70;
 $lion->threatenedLevel = 'VU';
-
+echo $lion->speak();
 $parrot = new Animal();
 $parrot->name = 'parrot';
 $parrot->pawNumber = 2;
